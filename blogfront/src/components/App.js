@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { NavLink, Route, Switch } from 'react-router-dom'
 import Home from './Home'
 import PostList from '../containers/PostList'
+import PostDetail from '../containers/PostDetail'
+
 import '../static/styles/App.less';
 
 class App extends Component {
@@ -18,6 +20,7 @@ class App extends Component {
           </ul>
         <Switch>
           <Route exact path="/post/" component={PostList}/>
+          <Route exact path="/post/:id/" component={PostDetail}/>
           <Route exact path="/" component={Home}/>
         </Switch>
       </div>

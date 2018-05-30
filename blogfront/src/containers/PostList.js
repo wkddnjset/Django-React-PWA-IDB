@@ -21,7 +21,6 @@ class PostList extends Component {
         <ul>
           {this.renderPost()}
         </ul>
-
       </div>
     );
   }
