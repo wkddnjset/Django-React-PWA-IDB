@@ -58,8 +58,8 @@ ROOT_URLCONF = 'BlogBack.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [ 'blogfront/build' ],
-        # 'DIRS': [ ],
+        # 'DIRS': [ 'blogfront/build' ],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

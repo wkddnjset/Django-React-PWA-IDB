@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { NavLink, Route, Switch } from 'react-router-dom'
+
 import Home from './Home'
 import PostList from '../containers/PostList'
-import PostDetail from '../containers/PostDetail'
+import PostDetail from '../containers/PostDetail';
 
 import '../static/styles/App.less';
 
